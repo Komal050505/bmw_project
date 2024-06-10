@@ -1,0 +1,9 @@
+CREATE TABLE bmw_vehicles (
+    vehicle_id INT PRIMARY KEY,
+    model VARCHAR(50) ,
+    year INT ,
+    color VARCHAR(20),
+    price INT
+);
+
+select * from bmw_vehicles
